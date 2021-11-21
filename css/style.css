@@ -89,7 +89,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	row-gap: 32px;
-	flex: 1 1 50%;
+	flex: 0 0 50%;
 	position:relative;
 	z-index: 2;
 }
@@ -118,7 +118,7 @@ body {
 	line-height: 42px;
 }
 .impact__image {
-	flex: 1 1 50%;
+	flex: 0 0 50%;
 	position: relative;
 	z-index: 1;
 	margin-top:-100px ;
@@ -142,7 +142,7 @@ body {
 
 .impact__row {
 	display: flex;
-	flex: 1 1 100%;
+	flex: 0 0 100%;
 	flex-wrap: wrap;
 	gap: 24px;
 }
@@ -151,7 +151,7 @@ body {
 	display: flex;
 	align-items: flex-start;
 	column-gap: 11px;
-	flex: 0 1 237px;
+	flex: 0 0 237px;
 }
 
 .item__title {
